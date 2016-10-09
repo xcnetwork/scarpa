@@ -21,7 +21,7 @@ document.write('<div id="rc-label"><div class="viewport"><ul>');
                 }
                 summa = ("summary" in entry) ? entry.summary.$t.replace(/<(.*)?>/g, "") : "";
                 summa = (summa.length > numchars) ? summa.substring(0, numchars): summa;
-                img = ('media$thumbnail' in entry) ? entry.media$thumbnail.url : 'https://googledrive.com/host/0B9NDv1cb2U5kUGZPdTZsWE96dTQ/noimage.png';
+                img = ('media$thumbnail' in entry) ? entry.media$thumbnail.url : 'https://cdn.rawgit.com/xcnetwork/scarpa/icon/noimage.png';
                 img = img.replace(/\/s[0-9]+(\-c)?\//, "/s320-c/");              		
 				plus = "&#43;"; 
                                        
